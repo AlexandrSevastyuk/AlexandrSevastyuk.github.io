@@ -1,0 +1,47 @@
+.jskmb-calculator{
+
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(204, 171, 98);
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.jskmb-calculator .opertion-block button {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+
+}
+
+.jskmb-calculator .display {
+    display: inline-block;
+    padding: 40px;
+    
+}
+
+.jskmb-calculator .display label {
+    display: inline-block;
+    
+}
+
+.jskmb-calculator .NumButton-block button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    
+}
+.jskmb-calculator .NumButton-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+#buttonZero {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.jskmb-calculator .display input {
+    width: 300px;
+    height: 30px;
+}
